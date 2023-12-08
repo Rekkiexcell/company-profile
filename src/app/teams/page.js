@@ -19,8 +19,9 @@ const Teams = async () => {
   console.log(userData);
   return (
     <div>
+\      <h1 className="text-center text-3xl">Team Leader</h1>
       <div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {userData?.map((items, index) => {
             return (
               <div key={index} className=" p-4 shadow-md rounded-md">
